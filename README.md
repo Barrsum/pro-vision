@@ -4,7 +4,7 @@
 
 **Day 01 / 30 - April Vibe Coding Challenge**
 
-## Try the live demo - [Demo](https://.vercel.app/)
+## Try the live demo - [Demo](https://pro-vision-gamma.vercel.app)
 
 Pro.Vision is a high-performance visual intelligence tool that uses **Llama 3.2 11B Vision** (via Nvidia NIM) to analyze images and generate detailed, Markdown-formatted descriptions.
 
