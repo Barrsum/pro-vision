@@ -341,7 +341,7 @@ export default function App() {
 
             <div className="flex flex-col md:flex-row items-center gap-4 w-full md:w-auto">
                <a 
-                 href="https://github.com/yourusername" 
+                 href="https://github.com/Barrsum/pro-vision" 
                  target="_blank" 
                  rel="noreferrer" 
                  className={`w-full md:w-auto px-6 py-3 rounded-lg font-bold text-sm flex items-center justify-center gap-2 transition-all hover:-translate-y-1 shadow-sm ${s.footerBtn}`}
