@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply transition-colors duration-300;
+  }
+  
+  /* Markdown Styles for the Pro Theme */
+  .prose h1 { @apply text-xl font-semibold mb-4 tracking-tight; }
+  .prose h2 { @apply text-lg font-medium mt-6 mb-3; }
+  .prose p { @apply mb-3 leading-relaxed opacity-90; }
+  .prose strong { @apply font-semibold; }
+  .prose ul { @apply list-disc list-inside space-y-1 mb-4 opacity-80; }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { @apply bg-gray-500/20 rounded-full; }
+::-webkit-scrollbar-thumb:hover { @apply bg-gray-500/40; }
+
+/* Created by Ram Bapat, www.linkedin.com/in/ram-bapat-barrsum-diamos */
